@@ -1,5 +1,5 @@
-export TARGET = iphone:13.3:10.0
-export ARCHS = arm64
+TARGET = iphone:13.3:10.0
+ARCHS = arm64
 
 INSTALL_TARGET_PROCESSES = ExampleApp
 
