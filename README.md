@@ -104,4 +104,3 @@ The contents of the control file will be the same as the one listed earlier, inc
 
 ### Congratulations, if you followed everything correctly, you now can just run `make package` inside of your master folder
 
-**If you would like to see an example implementation of this**
