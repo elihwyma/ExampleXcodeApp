@@ -13,7 +13,7 @@ This guide is assuming that the Xcode app is called `ExampleApp` and that the tw
 The base contents of the Makefile should contain the following:
 
 ```
-TARGET = iphone:13.3:10.0
+TARGET = iphone:clang:latest:10.0
 ARCHS = arm64
 INSTALL_TARGET_PROCESSES = ExampleApp
 
