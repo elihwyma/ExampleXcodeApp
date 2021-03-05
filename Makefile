@@ -1,11 +1,14 @@
-INSTALL_TARGET_PROCESSES = SpringBoard
-ARCHS = arm64 arm64e 
-TARGET = iphone:clang:13.3:11.0
-#Un-comment this line to make it a non-debug build
-#PACKAGE_VERSION=$(THEOS_PACKAGE_BASE_VERSION)
+TARGET = iphone:13.3:10.0
+ARCHS = arm64
+
+INSTALL_TARGET_PROCESSES = ExampleApp
 
 include $(THEOS)/makefiles/common.mk
 
-SUBPROJECTS += exampletweak ExampleApp
+XCODEPROJ_NAME = ExampleApp
 
-include $(THEOS_MAKE_PATH)/aggregate.mk
+ExampleApp_XCODEFLAGS = SWIFT_OLD_RPATH=/usr/lib/libswift/stable
+ExampleApp_XCODE_SCHEME = ExampleApp
+ExampleApp_CODESIGN_FLAGS = -SexampleAppEntitlements.xml
+
+include $(THEOS_MAKE_PATH)/xcodeproj.mk
