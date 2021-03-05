@@ -70,7 +70,9 @@ The entitlements needed for your app will vary depending on your needs, I will l
 </plist>
 ```
 `platform-application` is needed for running inside `/Applications`, the system will think it's a default app.
+
 `skip-library-validation` will skip any verification on your app or extensions. 
+
 `iokit-user-client-class`is a new array required by system apps in iOS 14 to avoid crashing in certain situations. 
 
 ### Optional Entitlements
