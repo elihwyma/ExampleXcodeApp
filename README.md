@@ -94,3 +94,6 @@ Read/Write privelleges to a certain file or folder. Useful for reading a tweak p
 </array>
 ```
 You will also need to add any entitlements that Xcode automatically gave your app for certain functionality, such as App Groups. 
+
+## Control
+Control stuff goes here
