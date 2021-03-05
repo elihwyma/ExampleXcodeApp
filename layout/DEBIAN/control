@@ -1,9 +1,9 @@
-Package: com.charliewhile.exampletweak
+Package: com.amywhile.exampleapp
 Name: ExampleTweak
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Charlie While
-Author: Charlie While
+Description: An example Xcode App
+Maintainer: Amy While
+Author: Amy While
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware(>=12.2) | org.swift.libswift (>=5.0)
+Depends: firmware(>=12.2) | org.swift.libswift (>=5.0)

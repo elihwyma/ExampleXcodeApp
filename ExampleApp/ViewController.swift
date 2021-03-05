@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ExampleApp
 //
-//  Created by Charlie While on 15/08/2020.
+//  Created by Amy While on 15/08/2020.
 //
 
 import UIKit
