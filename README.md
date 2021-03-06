@@ -41,31 +41,9 @@ The entitlements needed for your app will vary depending on your needs, I will l
         <key>com.apple.private.skip-library-validation</key>
         <true/>
 	<key>com.apple.security.iokit-user-client-class</key>
-        <array>
-                <string>AGXCommandQueue</string>
-                <string>AGXDevice</string>
-                <string>AGXDeviceUserClient</string>
-                <string>AGXSharedUserClient</string>
-                <string>AppleCredentialManagerUserClient</string>
-                <string>AppleJPEGDriverUserClient</string>
-                <string>ApplePPMUserClient</string>
-                <string>AppleSPUHIDDeviceUserClient</string>
-                <string>AppleSPUHIDDriverUserClient</string>
-                <string>IOAccelContext</string>
-                <string>IOAccelContext2</string>
-                <string>IOAccelDevice</string>
-                <string>IOAccelDevice2</string>
-                <string>IOAccelSharedUserClient</string>
-                <string>IOAccelSharedUserClient2</string>
-                <string>IOAccelSubmitter2</string>
-                <string>IOHIDEventServiceFastPathUserClient</string>
-                <string>IOHIDLibUserClient</string>
-                <string>IOMobileFramebufferUserClient</string>
-                <string>IOReportUserClient</string>
-                <string>IOSurfaceAcceleratorClient</string>
-                <string>IOSurfaceRootUserClient</string>
-                <string>RootDomainUserClient</string>
-        </array>
+2	<array>
+3	    <string>IOUserClient</string>
+4	</array>
     </dict>
 </plist>
 ```
