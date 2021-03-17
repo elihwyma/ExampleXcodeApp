@@ -41,9 +41,9 @@ The entitlements needed for your app will vary depending on your needs, I will l
         <key>com.apple.private.skip-library-validation</key>
         <true/>
 	<key>com.apple.security.iokit-user-client-class</key>
-2	<array>
-3	    <string>IOUserClient</string>
-4	</array>
+	<array>
+	    <string>IOUserClient</string>
+	</array>
     </dict>
 </plist>
 ```
